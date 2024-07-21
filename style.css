@@ -1,0 +1,31 @@
+
+
+
+body {
+    font-family: Arial,  sans-serif; 
+    font-size: 40px;
+    background-color: #4534a7; 
+    color: #fbff00; 
+}
+h1 {
+    color: #00a800; 
+    font-size: 24px; 
+    font-family: Georgia, serif; 
+}
+@keyframes color-change {
+    0% {
+      color: rgb(255, 0, 191);
+    }
+  
+    50% {
+      color: rgb(0, 255, 170);
+    }
+  
+    100% {
+      color: rgb(152, 0, 253);
+    }
+}
+
+h1 {
+    animation: color-change 3s infinite;
+}
